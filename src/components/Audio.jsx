@@ -14,7 +14,7 @@ function Audio() {
     }
 
     return (
-        <>
+        <section>
             <audio id="audio" loop>
                 <source
                     src="../assets/audio-files/bg-music.mp3"
@@ -31,7 +31,7 @@ function Audio() {
                     )}
                 </button>
             </div>
-        </>
+        </section>
     );
 }
 

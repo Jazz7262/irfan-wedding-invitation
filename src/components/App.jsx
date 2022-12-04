@@ -18,7 +18,6 @@ import $ from "jquery";
 
 import "aos/dist/aos.css";
 import "../styles/App.css";
-import BabiesQuote from "./BabiesQuote";
 
 function App() {
     useEffect(() => {
@@ -44,7 +43,6 @@ function App() {
             <Slide />
             <Couple />
             <InvitationQuote />
-            <BabiesQuote />
             <Timeline />
             <CountDown />
             <Compliments />
